@@ -1,0 +1,613 @@
+{
+  "time3": {
+    "t": 0,
+    "a": 0
+  },
+  "foodItems": [
+    {
+      "count": 1,
+      "id": 3582
+    },
+    {
+      "count": 1,
+      "id": 3577
+    },
+    {
+      "id": 3607,
+      "count": 1
+    },
+    {
+      "id": 3585,
+      "count": 1
+    },
+    {
+      "id": 3592,
+      "count": 1
+    },
+    {
+      "id": 3600,
+      "count": 1
+    },
+    {
+      "id": 3601,
+      "count": 1
+    }
+  ],
+  "specialDeposit": {
+    "height": 380,
+    "items": [
+
+    ]
+  },
+  "ingame_hotkeys": "",
+  "spell1": "chou kamehameha",
+  "analyzers": {
+    "lootChannel": true,
+    "customPrices": [
+
+    ],
+    "trackedLoot": [
+
+    ],
+    "trackedBoss": [
+
+    ],
+    "rarityFrames": true,
+    "outfits": {
+      "Giant Triceratops": {
+        "feet": 1,
+        "legs": 1,
+        "auxType": 0,
+        "type": 265,
+        "addons": 0,
+        "body": 1,
+        "head": 1
+      },
+      "[ADM] Zuko": {
+        "feet": 0,
+        "legs": 0,
+        "addons": 0,
+        "type": 447,
+        "body": 0,
+        "auxType": 13,
+        "head": 0
+      },
+      "Android Defense": {
+        "feet": 1,
+        "legs": 1,
+        "addons": 0,
+        "type": 289,
+        "body": 1,
+        "auxType": 0,
+        "head": 1
+      },
+      "Gam": {
+        "feet": 0,
+        "type": 154,
+        "addons": 0,
+        "legs": 0,
+        "body": 0,
+        "auxType": 0,
+        "head": 0
+      },
+      "Genmajin Hirudegarn": {
+        "feet": 1,
+        "legs": 1,
+        "addons": 0,
+        "type": 370,
+        "body": 1,
+        "auxType": 0,
+        "head": 1
+      },
+      "Zodiaco Manso": {
+        "feet": 0,
+        "type": 2,
+        "body": 0,
+        "legs": 0,
+        "auxType": 0,
+        "addons": 0,
+        "head": 0
+      },
+      "Pterossaur": {
+        "feet": 1,
+        "legs": 1,
+        "auxType": 0,
+        "type": 262,
+        "addons": 0,
+        "body": 1,
+        "head": 1
+      },
+      "Ghost SSJ3": {
+        "feet": 0,
+        "legs": 0,
+        "addons": 0,
+        "type": 421,
+        "body": 0,
+        "auxType": 0,
+        "head": 0
+      },
+      "Wolf": {
+        "feet": 1,
+        "legs": 1,
+        "addons": 0,
+        "type": 260,
+        "body": 1,
+        "auxType": 0,
+        "head": 1
+      },
+      "Dino": {
+        "feet": 1,
+        "legs": 1,
+        "auxType": 0,
+        "type": 266,
+        "addons": 0,
+        "body": 1,
+        "head": 1
+      },
+      "Yama": {
+        "feet": 0,
+        "legs": 0,
+        "addons": 0,
+        "type": 401,
+        "body": 0,
+        "auxType": 0,
+        "head": 0
+      },
+      "Cell Max": {
+        "feet": 1,
+        "type": 99,
+        "body": 1,
+        "legs": 1,
+        "auxType": 0,
+        "addons": 0,
+        "head": 1
+      },
+      "Purching Bag": {
+        "feet": 0,
+        "type": 402,
+        "body": 0,
+        "legs": 0,
+        "auxType": 0,
+        "addons": 0,
+        "head": 0
+      }
+    }
+  },
+  "time11": {
+    "t": 0,
+    "a": 0
+  },
+  "time": {
+    "t": 0,
+    "a": 0
+  },
+  "checkVersion": 1672013486,
+  "newHealer": {
+    "settings": [
+      {
+        "type": "HealItem",
+        "value": 268,
+        "text": "Mana Item "
+      },
+      {
+        "type": "HealScroll",
+        "value": 6,
+        "text": "Item Range: "
+      },
+      {
+        "type": "HealItem",
+        "value": 3160,
+        "text": "Health Item "
+      },
+      {
+        "type": "HealScroll",
+        "value": 2,
+        "text": "Mas Res Players: "
+      },
+      {
+        "type": "HealScroll",
+        "value": 80,
+        "text": "Heal Friend at: "
+      },
+      {
+        "type": "HealScroll",
+        "value": 80,
+        "text": "Use Gran Sio at: "
+      },
+      {
+        "type": "HealScroll",
+        "value": 80,
+        "text": "Min Player HP%: "
+      },
+      {
+        "type": "HealScroll",
+        "value": 50,
+        "text": "Min Player MP%: "
+      }
+    ],
+    "groups": [
+
+    ],
+    "customPlayers": [
+
+    ],
+    "conditions": {
+      "party": false,
+      "knights": true,
+      "friends": false,
+      "botserver": false,
+      "paladins": true,
+      "druids": true,
+      "sorcerers": true,
+      "guild": false
+    },
+    "enabled": false,
+    "priorities": [
+      {
+        "custom": true,
+        "enabled": false,
+        "name": "Custom Spell"
+      },
+      {
+        "strong": true,
+        "enabled": true,
+        "name": "Exura Gran Sio"
+      },
+      {
+        "normal": true,
+        "enabled": true,
+        "name": "Exura Sio"
+      },
+      {
+        "enabled": true,
+        "name": "Exura Gran Mas Res",
+        "area": true
+      },
+      {
+        "health": true,
+        "enabled": true,
+        "name": "Health Item"
+      },
+      {
+        "enabled": true,
+        "name": "Mana Item",
+        "mana": true
+      }
+    ],
+    "vocations": [
+
+    ]
+  },
+  "turn": "",
+  "BotServerChannel": "aaaaaaaaaaaaaaadd",
+  "combobot": {
+    "attackSpellEnabled": false,
+    "attackLeaderTargetEnabled": false,
+    "onShootEnabled": false,
+    "item": 3155,
+    "serverLeaderTarget": false,
+    "onCastEnabled": false,
+    "serverEnabled": false,
+    "attack": "",
+    "onSayEnabled": false,
+    "sayLeader": "",
+    "spell": "",
+    "shootLeader": "",
+    "attackItemToggle": false,
+    "followLeaderEnabled": false,
+    "commandsEnabled": true,
+    "sayPhrase": "",
+    "serverTriggers": true,
+    "serverLeader": "",
+    "enabled": false,
+    "follow": "",
+    "castLeader": ""
+  },
+  "extras": {
+    "rope": 9596,
+    "pathfinding": false,
+    "bless": true,
+    "machete": 9596,
+    "separatePm": true,
+    "highlightTarget": false,
+    "gotoMaxDistance": 70,
+    "killUnder": 1,
+    "holdMwall": true,
+    "checkPlayer": true,
+    "looting": 46,
+    "suppliesControl": false,
+    "useAll": "space",
+    "joinBot": false,
+    "lootLast": false,
+    "holdMwHot": "F5",
+    "holdWgHot": "F6",
+    "shovel": 9596,
+    "lootDelay": 190,
+    "title": true,
+    "autoOpenDoors": true,
+    "stake": false,
+    "scythe": 9596,
+    "huntRoutes": 40,
+    "oberon": true,
+    "antiKick": false,
+    "talkDelay": 500,
+    "nextBackpack": false,
+    "reachable": false,
+    "reUse": true,
+    "height": 359,
+    "timers": true
+  },
+  "_macros": {
+    "": false,
+    "Auto Beam by Zodiaco": false,
+    "AntiRS & Msg": false,
+    "Correr": true,
+    "COMBO sem lariat": false,
+    "COMBO com lariat": false,
+    "sense": false,
+    "Hold Target": false,
+    "Bug Map": false,
+    "Auto Turn": true,
+    "Anti Paralyze": true,
+    "Halloween buff": false,
+    "POT HALL": false,
+    "Turn": false,
+    "Nao atacar aliados": false,
+    "turn reta": false,
+    "chase no v": false,
+    "Depot Withdraw": false,
+    "HEALBOT": true,
+    "selo bijuu": false,
+    "Send message on trade": false
+  },
+  "autoEquip": [
+    {
+      "item1": 3052,
+      "title": "Auto Equip",
+      "item2": 3089,
+      "on": false,
+      "slot": 9
+    },
+    {
+      "item1": 0,
+      "title": "Auto Equip",
+      "item2": 0,
+      "on": false,
+      "slot": 0
+    }
+  ],
+  "dropper": {
+    "enabled": false,
+    "trashItems": [
+      {
+        "count": 1,
+        "id": 283
+      },
+      {
+        "count": 1,
+        "id": 284
+      },
+      {
+        "count": 1,
+        "id": 285
+      }
+    ],
+    "useItems": [
+      {
+        "count": 1,
+        "id": 21203
+      },
+      {
+        "count": 1,
+        "id": 14758
+      }
+    ],
+    "capItems": [
+      {
+        "count": 1,
+        "id": 21175
+      }
+    ]
+  },
+  "caveBot": {
+    "backOffline": false,
+    "backTrainers": false,
+    "forceRefill": false,
+    "backStop": false
+  },
+  "cavebotSell": [
+    {
+      "count": 1,
+      "id": 23544
+    },
+    {
+      "count": 1,
+      "id": 3081
+    }
+  ],
+  "bestHit": 0,
+  "EquipperPanel": {
+    "enabled": false,
+    "bosses": [
+
+    ],
+    "rules": [
+
+    ]
+  },
+  "time1": {
+    "t": 0,
+    "a": 0
+  },
+  "spell3": "small genki dama",
+  "_configs": {
+    "targetbot_configs": {
+      "selected": "config_name",
+      "enabled": false
+    },
+    "cavebot_configs": {
+      "selected": "config_name",
+      "enabled": false
+    }
+  },
+  "time2": {
+    "t": 0,
+    "a": 0
+  },
+  "_icons": {
+    "Bug Map": {
+      "y": 0.05,
+      "x": 0.01,
+      "enabled": false
+    }
+  },
+  "moneyItems": [
+    {
+      "count": 1,
+      "id": 3031
+    },
+    {
+      "count": 1,
+      "id": 3035
+    }
+  ],
+  "timepill": {
+    "t": 0,
+    "a": 0
+  },
+  "pushmax": {
+    "pushMaxRuneId": 3188,
+    "mwallBlockId": 2128,
+    "pushDelay": 800,
+    "enabled": false,
+    "pushMaxKey": "F9"
+  },
+  "bestHeal": 0,
+  "autoTradeMessage": "assss",
+  "alarms": {
+    "privateMsg": [
+
+    ],
+    "customMessage": {
+      "value": ""
+    },
+    "flashClient": [
+
+    ],
+    "lowMana": {
+      "value": 20
+    },
+    "creatureDetected": [
+
+    ],
+    "damageTaken": [
+
+    ],
+    "playerAttack": [
+
+    ],
+    "ignoreFriends": [
+
+    ],
+    "defaultMsg": [
+
+    ],
+    "creatureName": {
+      "value": ""
+    },
+    "enabled": false,
+    "lowHealth": {
+      "value": 20
+    },
+    "playerDetected": [
+
+    ]
+  },
+  "playerList": {
+    "enemyList": [
+
+    ],
+    "outfits": true,
+    "groupMembers": true,
+    "marks": false,
+    "highlight": false,
+    "blackList": [
+
+    ],
+    "friendList": {
+      "gam": true
+    }
+  },
+  "BOTserver": {
+    "manaInfo": true,
+    "mwallInfo": true,
+    "mwalls": [
+
+    ],
+    "outfit": true,
+    "broadcasts": true,
+    "vocation": true,
+    "enabled": false
+  },
+  "renameContainers": {
+    "purse": true,
+    "enabled": false,
+    "height": 170,
+    "list": [
+      {
+        "items": [
+          3081,
+          3048
+        ],
+        "value": "Main Backpack",
+        "item": 9601,
+        "min": false,
+        "enabled": true
+      },
+      {
+        "items": [
+          3161,
+          3180
+        ],
+        "value": "Runes",
+        "item": 2866,
+        "min": true,
+        "enabled": true
+      },
+      {
+        "items": [
+          3031,
+          3035,
+          3043
+        ],
+        "value": "Money",
+        "item": 2871,
+        "min": true,
+        "enabled": true
+      },
+      {
+        "items": [
+
+        ],
+        "value": "Purse",
+        "item": 23396,
+        "min": true,
+        "enabled": true
+      }
+    ]
+  },
+  "caveBotTasker": {
+    "max": 0,
+    "monster": "",
+    "inProgress": false,
+    "count": 0,
+    "taskName": ""
+  },
+  "Combo Maker": {
+    "pushMaxRuneId": 3188,
+    "mwallBlockId": 2128,
+    "pushDelay": 1060,
+    "enabled": false,
+    "pushMaxKey": "PageUp"
+  }
+}
